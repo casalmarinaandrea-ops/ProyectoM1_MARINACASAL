@@ -1,0 +1,45 @@
+2. HTML
+3. <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generador de Paletas</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <section class="hero" aria-labelledby="titulo">
+      <h1 id="titulo">Generador de paletas</h1>
+      <p>Creá paletas aleatorias en formato HEX.</p>
+
+      <form class="controls">
+        <label for="paletteSize">Tamaño de la paleta</label>
+        <select id="paletteSize" name="paletteSize">
+          <option value="6">6 colores</option>
+          <option value="8">8 colores</option>
+          <option value="9">9 colores</option>
+        </select>
+
+        <button type="button" id="generateBtn">
+          Generar paleta
+        </button>
+      </form>
+    </section>
+
+    <section aria-labelledby="paletaTitulo">
+      <h2 id="paletaTitulo">Paleta actual</h2>
+      <div id="palette" class="palette"></div>
+    </section>
+
+    <section aria-labelledby="guardadasTitulo">
+      <h2 id="guardadasTitulo">Paletas guardadas</h2>
+      <button type="button" id="saveBtn">Guardar paleta</button>
+      <div id="savedPalettes" class="saved-palettes"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
