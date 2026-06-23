@@ -98,7 +98,10 @@ colorCard.setAttribute("aria-label", `Color ${color.hex}. Click para copiar`);
  
 const colorCode = document.createElement("span");
 colorCode.className = "color-code";
-colorCode.textContent = color.hex;
+colorCode.innerHTML = `
+  <strong>${color.hex}</strong>
+  <small>${color.hsl}</small>
+`;
  
 const lockButton = document.createElement("button");
 lockButton.className = "lock-btn";
@@ -181,5 +184,5 @@ paletteSizeSelect.addEventListener("change", generatePalette);
  
 renderSavedPalettes();
 generatePalette();
-
+ 
 
