@@ -3,6 +3,9 @@
 
 Aplicación web estática e interactiva que permite generar paletas de colores aleatorias utilizando HSL y visualizar sus equivalentes en HEX.
 
+## Demo desplegada
+
+https://casalmarinaandrea-ops.github.io/ProyectoM1_MARINACASAL/
 
 ## Funcionalidades
 
