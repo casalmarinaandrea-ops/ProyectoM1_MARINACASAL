@@ -189,3 +189,53 @@ transform: translateY(0);
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .hero {
+    padding: 24px;
+  }
+
+  .palette {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .app {
+    width: 94%;
+    padding: 24px 0;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .hero {
+    padding: 20px;
+    border-radius: 18px;
+  }
+
+  .palette {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    align-items: stretch;
+  }
+
+  select,
+  button {
+    width: 100%;
+  }
+
+  .toast {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    text-align: center;
+  }
+}
