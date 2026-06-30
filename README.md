@@ -73,3 +73,6 @@ Desarrollé mi primer proyecto web utilizando HTML, CSS y JavaScript, con apoyo 
 ## Carpeta con capturas de PROMPTS
 
 Esta carpeta reúne una selección de capturas de pantalla de los prompts utilizados durante el desarrollo del proyecto. Su objetivo es documentar el proceso de trabajo con inteligencia artificial, mostrando cómo se formularon las consultas, se resolvieron problemas técnicos, se implementaron nuevas funcionalidades y se realizaron mejoras progresivas en el código. Estas evidencias reflejan el uso de la IA como herramienta de apoyo para el aprendizaje, la depuración, la optimización y la toma de decisiones durante el desarrollo de la aplicación.
+
+## Archivo GIF
+Este archivo GIF muestra el funcionamiento general de la aplicación. A través de una demostración visual se pueden observar las principales funcionalidades, como la generación de paletas de colores, la copia de códigos en formatos HEX y HSL, la selección del formato de copia. Su propósito es facilitar la comprensión de la interfaz y la experiencia de uso de la aplicación.
