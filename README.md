@@ -66,6 +66,10 @@ Requerimientos obligatorios
 * Animaciones sutiles.
 * Mejoras visuales de interfaz (UI).
 
-* ## Experiencia trabajando con IA
+## Experiencia trabajando con IA
 
 Desarrollé mi primer proyecto web utilizando HTML, CSS y JavaScript, con apoyo de inteligencia artificial como herramienta de asistencia. Participé en la implementación de funcionalidades, depuración de código, mejoras de interfaz, diseño responsive, control de versiones con Git y publicación del proyecto en GitHub Pages, fortaleciendo mis habilidades técnicas y de resolución de problemas.
+
+## Carpeta con capturas de PROMPTS
+
+Esta carpeta reúne una selección de capturas de pantalla de los prompts utilizados durante el desarrollo del proyecto. Su objetivo es documentar el proceso de trabajo con inteligencia artificial, mostrando cómo se formularon las consultas, se resolvieron problemas técnicos, se implementaron nuevas funcionalidades y se realizaron mejoras progresivas en el código. Estas evidencias reflejan el uso de la IA como herramienta de apoyo para el aprendizaje, la depuración, la optimización y la toma de decisiones durante el desarrollo de la aplicación.
