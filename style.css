@@ -278,3 +278,17 @@ select:focus-visible,
   }
 
 }
+
+footer {
+  margin-top: 40px;
+  padding: 24px;
+  text-align: center;
+  background: #1f2937;
+  color: #d1d5db;
+  font-size: 14px;
+  border-top: 1px solid #374151;
+}
+
+footer p {
+  margin: 0;
+}
