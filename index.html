@@ -14,12 +14,23 @@
       <p>Creá paletas aleatorias mostrando códigos HEX y HSL.</p>
 
       <form class="controls">
-        <label for="paletteSize">Tamaño de la paleta</label>
-        <select id="paletteSize" name="paletteSize">
-          <option value="6">6 colores</option>
-          <option value="8">8 colores</option>
-          <option value="9">9 colores</option>
-        </select>
+        <div>
+          <label for="paletteSize">Tamaño de la paleta</label>
+          <select id="paletteSize" name="paletteSize">
+            <option value="6">6 colores</option>
+            <option value="8">8 colores</option>
+            <option value="9">9 colores</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="copyFormat">Formato para copiar</label>
+          <select id="copyFormat" name="copyFormat">
+            <option value="both">HEX + HSL</option>
+            <option value="hex">Solo HEX</option>
+            <option value="hsl">Solo HSL</option>
+          </select>
+        </div>
 
         <button type="button" id="generateBtn">
           Generar paleta
