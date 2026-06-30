@@ -190,6 +190,11 @@ function renderSavedPalettes() {
       colorElement.style.backgroundColor = color.hex;
       colorElement.title = `${color.hex} | ${color.hsl}`;
 
+      colorElement.innerHTML = `
+        <span>${color.hex}</span>
+        <small>${color.hsl}</small>
+      `;
+
       paletteElement.appendChild(colorElement);
     });
 
