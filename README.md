@@ -78,14 +78,14 @@ Esta carpeta reúne una selección de capturas de pantalla de los prompts utiliz
 Este archivo GIF muestra el funcionamiento general de la aplicación. A través de una demostración visual se pueden observar las principales funcionalidades, como la generación de paletas de colores, la copia de códigos en formatos HEX y HSL, la selección del formato de copia. Su propósito es facilitar la comprensión de la interfaz y la experiencia de uso de la aplicación.
 
 ## Vista previa por si archivo GIF es muy pesado
-<p align center="center">
-<img src=:/"DEMOSTRACION/demostracion 1.png" width="700">
+<p align="center">
+  <img src="DEMOSTRACION/demostracion%201.png" width="700">
 </p>
 
-<p align center="center">
-<img src=:/"DEMOSTRACION/demostracion 2.png" width="700">
+<p align="center">
+  <img src="DEMOSTRACION/demostracion%202.png" width="700">
 </p>
 
-<p align center="center">
-<img src=:/"DEMOSTRACION/demostracion 3.png" width="700">
+<p align="center">
+  <img src="DEMOSTRACION/demostracion%203.png" width="700">
 </p>
